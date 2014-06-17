@@ -9,7 +9,7 @@ SplitMyString is a small byte size lib, it alows you to pass a simple string and
 <p>Create a new instance of SMS</p>
 
 <pre><code>
-//create array to store split string in
+//create array to store split string
 <b>var</b> splarray = [];
 
 //create new instance
