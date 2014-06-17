@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script src="split-my-string-0.0.1.js"></script>
+	<script>
+		var arr = [];
+		var str = new SMS("Hello/there/how/are/u", arr);
+		str.split();
+		console.log(str.splitAsJson('json').json[0]);
+	</script>
+</body>
+</html>
